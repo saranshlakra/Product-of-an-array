@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Array Product</title>
+</head>
+<h1>
+    Press ctrl + shift + i than click console.
+</h1>
+
+<body>
+    <script>
+        var numbers, product;
+        numbers = [1, 2, 8, 9, 2, 10]
+
+        function prod() {
+            product = 1;
+            for (i = 0; i < numbers.length; i++) {
+                product = product * numbers[i];
+            }
+            return product;
+        }
+        prod();
+        console.log('Product of this array is: ' + product);
+    </script>
+
+</body>
+
+</html>
